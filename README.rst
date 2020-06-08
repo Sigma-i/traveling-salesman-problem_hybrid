@@ -20,7 +20,7 @@ A simple command that runs the demo. For example,
 
 .. code-block:: bash
 
-  python <traveling-salesman-problem>.py
+  python traveling-salesman-problem.py
 
 
 Code Overview
@@ -40,7 +40,7 @@ Then we can submit it to hybrid_v1 solver and the solver hopefully return the so
 Code Specifics
 --------------
 
-The core code for Traveling Salesman Problem lives in traveling_salesman_problem.py, so the following sections describe that code.
+The core code for Traveling Salesman Problem lives in ``traveling_salesman_problem.py``, so the following sections describe that code.
 
 Problem setting
 ~~~~~~~~~~~~~~~
