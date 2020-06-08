@@ -1,6 +1,6 @@
-==========================
-Traveling Salesman Problem
-==========================
+=================================================
+Solving a Traveling Salesman Problem by hybrid_v1 
+=================================================
 
 A demo on using the D-Wave Ocean SDK to solve the Traveling Salesman Problem. 
 Given a set of cities, find the shortest route for a salesman to visit all cities once and return to the starting city.
@@ -10,7 +10,7 @@ Given a set of cities, find the shortest route for a salesman to visit all citie
 In the figure above, the origin city is shown in red and the others are in blue.
 The lines represent the route of travel.
 
-We use `Leap's Hybrid Solver <https://docs.dwavesys.com/docs/latest/c_solver_3.html#minimum-time-limit>`_ (hybrid_v1), which is intended to solve arbitrary application problems formulated as BQM, to solve this problem.
+We use `Leap's Hybrid Solver <https://docs.dwavesys.com/docs/latest/c_solver_3.html>`_ (hybrid_v1), which is intended to solve arbitrary application problems formulated as BQM, to solve this problem.
 This solver implements cutting edge classical algorithms together with QPU and can accommodate very large problems.
 
 Usage
